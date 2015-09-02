@@ -24,3 +24,15 @@ export MANPAGER='less -X';
 
 # Always enable colored `grep` output.
 export GREP_OPTIONS='--color=auto';
+
+# SCM exports
+export ADL_DIFF_TOOL="/usr/local/bin/ksdiff"
+export MK_RTV_PATH="/Users/f2i/Sites/ifwe_swp"
+export SCM_DEFAULT_WS="UWA_SWPPrj_r418_f2i"
+
+# Proxies exports
+export http_proxy=http://f2i:<password>@10.6.69.50:8080
+export HTTP_PROXY=http://f2i:<password>@10.6.69.50:8080
+export https_proxy=http://f2i:<password>@10.6.69.50:8080
+export HTTPS_PROXY=http://f2i:<password>@10.6.69.50:8080
+export ALL_PROXY=$http_proxy

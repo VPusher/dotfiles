@@ -8,3 +8,6 @@
 # GIT_AUTHOR_EMAIL="awe.some@domain.com"
 # GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 # git config --global user.email "$GIT_AUTHOR_EMAIL"
+
+# SCM wrapper script
+source "$HOME/Projects/gitscm/scm.sh"
