@@ -25,7 +25,9 @@ export MANPAGER='less -X';
 # Always enable colored `grep` output.
 export GREP_OPTIONS='--color=auto';
 
-# SCM exports
+# Link Homebrew casks in `/Applications` rather than `~/Applications`
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
 export ADL_DIFF_TOOL="/usr/local/bin/ksdiff"
 export MK_RTV_PATH="/Users/f2i/Sites/ifwe_swp"
 export SCM_DEFAULT_WS="UWA_SWPPrj_r418_f2i"
