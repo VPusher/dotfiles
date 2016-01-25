@@ -34,7 +34,9 @@ export SCM_DEFAULT_WS="UWA_SWPPrj_r418_f2i"
 
 # Proxies exports
 export http_proxy=http://f2i:<password>@10.6.69.50:8080
-export HTTP_PROXY=http://f2i:<password>@10.6.69.50:8080
-export https_proxy=http://f2i:<password>@10.6.69.50:8080
-export HTTPS_PROXY=http://f2i:<password>@10.6.69.50:8080
+export HTTP_PROXY=$http_proxy
+export https_proxy=$http_proxy
+export HTTPS_PROXY=$http_proxy
 export ALL_PROXY=$http_proxy
+export no_proxy=127.0.0.1,192.168.99.100,localhost,.dsone.3ds.com,.3ds.com
+export NO_PROXY=$no_proxy
