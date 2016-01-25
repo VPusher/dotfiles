@@ -199,6 +199,10 @@
 [merge]
     tool = Kaleidoscope
 
+[user]
+	name = Florian Maffini
+	email = florian.maffini@3ds.com
+
 # HTTP Proxies
 
 [http]
