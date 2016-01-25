@@ -177,10 +177,6 @@
 
     cmd = "ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\""
 
-[difftool "sourcetree"]
-
-	cmd = "ksdiff -- \"$LOCAL\" \"$REMOTE\""
-
 [difftool]
 
     prompt = false
@@ -196,15 +192,10 @@
     cmd = "ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot"
     trustExitCode = true
 
-[mergetool "sourcetree"]
-
-	cmd = "ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" \"$REMOTE\""
-	trustExitCode = true
-
 [mergetool]
 
     prompt = false
 
 [merge]
-
     tool = Kaleidoscope
+
